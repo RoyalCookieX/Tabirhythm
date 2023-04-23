@@ -7,7 +7,7 @@ namespace Tabirhythm
         public string prefabName;
         public NoteAxis noteAxis;
         public int stepDistance;
-        public int beatsPerMinute;
+        public float beatsPerMinute;
         public NotePool notePool;
 
         private Note _instance;

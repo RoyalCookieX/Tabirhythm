@@ -10,7 +10,7 @@ namespace Tabirhythm
         public double DivisionDuration => BeatDuration / divisionsPerBeat;
 
         public int divisionsPerBeat;
-        public int beatsPerMinute;
+        public float beatsPerMinute;
         public int beatsPerMeasure;
     }
 
@@ -34,7 +34,7 @@ namespace Tabirhythm
 
         [Header("Properties")]
         [SerializeField, Min(1)] private int _divisionsPerBeat = 2;
-        [SerializeField, Min(1)] private int _beatsPerMinute = 120;
+        [SerializeField, Min(0.001f)] private float _beatsPerMinute = 120.0f;
         [SerializeField, Range(1, 4)] private int _beatsPerMeasure = 4;
 
         [ContextMenu("Destroy Markers")]
