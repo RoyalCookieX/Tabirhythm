@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Playables;
 
 namespace Tabirhythm
 {
@@ -31,16 +31,22 @@ namespace Tabirhythm
         {
             public bool next;
             public bool evaluated;
-            public HitAction action;
             public double time;
+            public NoteAction noteAction;
+            public HitAction hitAction;
+            public Action<NoteAction, HitAction, HitStatus> actionOnHit;
 
-            public HitEvent(bool next, HitAction action, double time)
+            public HitEvent(bool next, double time, NoteAction noteAction, HitAction hitAction, Action<NoteAction, HitAction, HitStatus> actionOnHit)
             {
                 this.next = next;
                 this.evaluated = false;
-                this.action = action;
                 this.time = time;
+                this.noteAction = noteAction;
+                this.hitAction = hitAction;
+                this.actionOnHit = actionOnHit;
             }
+
+            public void InvokeHit(HitStatus hitStatus) => actionOnHit?.Invoke(noteAction, hitAction, hitStatus);
         }
 
         public double Time { get; set; }
@@ -49,8 +55,9 @@ namespace Tabirhythm
         [SerializeField] private UnityEvent<int, HitResult> _onEvaluate;
 
         private Dictionary<int, Queue<HitEvent>> _hitEventTracks = new Dictionary<int, Queue<HitEvent>>();
+        GUIStyle _style = new GUIStyle();
 
-        public void EnqueueNote(int trackId, WindowInfo window)
+        public void EnqueueNote(int trackId, WindowInfo window, Action<NoteAction, HitAction, HitStatus> actionOnHit = null)
         {
             if (!_hitEventTracks.ContainsKey(trackId))
                 _hitEventTracks.Add(trackId, new Queue<HitEvent>());
@@ -63,13 +70,13 @@ namespace Tabirhythm
                     break;
                 case NoteAction.Step:
                 {
-                    hitEventTrack.Enqueue(new HitEvent(false, HitAction.Press, hitEventTime));
+                    hitEventTrack.Enqueue(new HitEvent(false, hitEventTime, window.action, HitAction.Press, actionOnHit));
                     break;
                 }
                 case NoteAction.Hold:
                 {
-                    hitEventTrack.Enqueue(new HitEvent(true, HitAction.Press, hitEventTime));
-                    hitEventTrack.Enqueue(new HitEvent(false, HitAction.Release, hitEventTime + window.holdDuration));
+                    hitEventTrack.Enqueue(new HitEvent(true, hitEventTime, window.action, HitAction.Press, actionOnHit));
+                    hitEventTrack.Enqueue(new HitEvent(false, hitEventTime + window.holdDuration, window.action, HitAction.Release, actionOnHit));
                     break;
                 }
             }
@@ -92,7 +99,11 @@ namespace Tabirhythm
                 hitEvent = e;
                 break;
             }
-            if (hitEvent == null || hitEvent.action != action)
+            
+            if (hitEvent == null)
+                return;
+
+            if (hitEvent.hitAction != action)
                 return;
 
             double error = Time - hitEvent.time;
@@ -102,7 +113,8 @@ namespace Tabirhythm
                 : error > halfWindowDuration
                     ? HitStatus.Late
                     : HitStatus.Perfect;
-            InvokeHit(trackId, error, status);
+            InvokeEvaluate(trackId, error, status);
+            hitEvent.InvokeHit(status);
             hitEvent.evaluated = true;
         }
 
@@ -118,40 +130,46 @@ namespace Tabirhythm
             while(true)
             {
                 HitEvent hitEvent = hitEventTrack.Dequeue();
+                
                 if (!hitEvent.evaluated)
-                    InvokeHit(trackId, 0.0, HitStatus.Miss);
+                    InvokeMiss(trackId);
+
                 if (!hitEvent.next)
                     break;
             }
         }
 
-        private void InvokeHit(int trackId, double error, HitStatus status)
+        private void InvokeEvaluate(int trackId, double error, HitStatus status)
         {
             HitResult result = new HitResult { error = error, status = status };
             _onEvaluate?.Invoke(trackId, result);
         }
 
+        private void InvokeMiss(int trackId) => InvokeEvaluate(trackId, 0.0, HitStatus.Miss);
+
+        private void OnEnable()
+        {
+            _style.normal.textColor = Color.black;
+            _style.fontSize = 30;
+        }
+
         private void OnGUI()
         {
-            GUIStyle style = new GUIStyle();
-            style.normal.textColor = Color.black;
-            style.fontSize = 30;
-
             float yOffset = 0.0f;
             float cornerOffset = 30.0f;
-            float textWidth = 300.0f;
-            float textHeight = 50.0f;
+            float textWidth = 100.0f;
+            float textHeight = 30.0f;
             foreach (var(trackId, hitEventTrack) in _hitEventTracks)
             {
                 Rect trackRect = new Rect(cornerOffset, cornerOffset + yOffset, textWidth, textHeight);
-                GUI.Label(trackRect, $"{trackId}", style);
+                GUI.Label(trackRect, $"{trackId}", _style);
                 yOffset += textHeight;
 
                 int hitEventIndex = 0;
                 foreach(HitEvent hitEvent in hitEventTrack)
                 {
                     Rect hitEventRect = new Rect(cornerOffset, cornerOffset + yOffset + hitEventIndex * textHeight, textWidth, textHeight);
-                    GUI.Label(hitEventRect, $"[{hitEvent.time:#.####}]: {hitEvent.action} {(hitEvent.evaluated ? 'X' : 'O')}", style);
+                    GUI.Label(hitEventRect, $"[{hitEvent.time:#.####}]: {hitEvent.hitAction} {(hitEvent.evaluated ? 'X' : 'O')}", _style);
                     hitEventIndex++;
                 }
                 yOffset += hitEventTrack.Count * textHeight;

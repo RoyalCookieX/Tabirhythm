@@ -20,7 +20,23 @@ namespace Tabirhythm
                 return;
 
             _instance = notePool.GetNote(prefabName, noteAxis, stepDistance);
-            hitQueue.EnqueueNote((int)noteAxis, window);
+            hitQueue.EnqueueNote((int)noteAxis, window, (noteAction, hitAction, hitStatus) =>
+            {
+                switch (noteAction)
+                {
+                    case NoteAction.Step:
+                    {
+                        ReleaseNote();
+                        break;
+                    }
+                    case NoteAction.Hold:
+                    {
+                        if (hitAction == HitAction.Release)
+                            ReleaseNote();
+                        break;
+                    }
+                }
+            });
         }
 
         public override void OnBehaviourPause(Playable playable, FrameData info)
@@ -28,9 +44,8 @@ namespace Tabirhythm
             if (!notePool || !hitQueue)
                 return;
 
-            notePool.ReleaseNote(_instance);
             hitQueue.DequeueNote((int)noteAxis);
-            _instance = null;
+            ReleaseNote();
         }
 
         public override void ProcessFrame(Playable playable, FrameData info, object playerData)
@@ -40,6 +55,12 @@ namespace Tabirhythm
 
             double beatTime = playable.GetTime() / 60.0 * beatsPerMinute;
             _instance.OnSetBeatTime(beatTime);
+        }
+
+        private void ReleaseNote()
+        {
+            notePool.ReleaseNote(_instance);
+            _instance = null;
         }
     }
 }
