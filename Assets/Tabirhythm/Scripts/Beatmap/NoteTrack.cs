@@ -34,6 +34,7 @@ namespace Tabirhythm
 
             var playable = (ScriptPlayable<NotePlayable>)base.CreatePlayable(graph, gameObject, clip);
             NotePlayable notePlayable = playable.GetBehaviour();
+            notePlayable.beatsPerMinute = _tempoTrack.Tempo.beatsPerMinute;
             notePlayable.notePool = _notePool.Resolve(graph.GetResolver());
             notePlayable.notePool.CreatePool(prefab);
             return playable;

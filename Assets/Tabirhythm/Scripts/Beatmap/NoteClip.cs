@@ -89,6 +89,9 @@ namespace Tabirhythm
 
         public override Playable CreatePlayable(PlayableGraph graph, GameObject gameObject)
         {
+            if (!_prefab)
+                return Playable.Null;
+
             var playable = ScriptPlayable<NotePlayable>.Create(graph);
             NotePlayable notePlayable = playable.GetBehaviour();
             notePlayable.prefabName = _prefab.name;
