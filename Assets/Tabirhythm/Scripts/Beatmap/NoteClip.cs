@@ -95,6 +95,7 @@ namespace Tabirhythm
             var playable = ScriptPlayable<NotePlayable>.Create(graph);
             NotePlayable notePlayable = playable.GetBehaviour();
             notePlayable.prefabName = _prefab.name;
+            notePlayable.window = _window;
             notePlayable.noteAxis = _noteAxis;
             notePlayable.stepDistance = _stepDistance;
             return playable;

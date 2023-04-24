@@ -339,20 +339,6 @@ MonoBehaviour:
   m_Time: 28.269230769230766
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
---- !u!114 &-8660992647658284165
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
-  _noteAxis: 3
 --- !u!114 &-8642566193983753805
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1319,20 +1305,6 @@ MonoBehaviour:
   m_Time: 94.03846153846153
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
---- !u!114 &-7831286027210593377
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
-  _noteAxis: 1
 --- !u!114 &-7827879924034513375
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1538,6 +1510,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 86.6341463414634
   <parent>k__BackingField: {fileID: -7991078936504645405}
+--- !u!114 &-7652397273549568756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 2
 --- !u!114 &-7644115520703770470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1772,6 +1758,20 @@ MonoBehaviour:
   m_Time: 93.17307692307692
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
+--- !u!114 &-7279184413536552307
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 0
 --- !u!114 &-7273960253522843853
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1787,6 +1787,20 @@ MonoBehaviour:
   m_Time: 62.3076923076923
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 2
+--- !u!114 &-7272836623382282392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 0
 --- !u!114 &-7269633406404977666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2304,6 +2318,20 @@ MonoBehaviour:
   m_Time: 87.11538461538461
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
+--- !u!114 &-6362689942318021438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 2
 --- !u!114 &-6307560049291018604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2378,6 +2406,20 @@ MonoBehaviour:
   m_Time: 81.92307692307692
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
+--- !u!114 &-6250753646291513536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 2
 --- !u!114 &-6234551026338269386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3213,6 +3255,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 24.585365853658534
   <parent>k__BackingField: {fileID: -7991078936504645405}
+--- !u!114 &-4974340859297354502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 0
 --- !u!114 &-4943974198437212987
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3358,20 +3414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Time: 7.75
---- !u!114 &-4695388711154118854
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
-  _noteAxis: 2
 --- !u!114 &-4688261168473060419
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4090,9 +4132,9 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 1.5
     m_ClipIn: 0
-    m_Asset: {fileID: 5944441063171637928}
+    m_Asset: {fileID: -4974340859297354502}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3532718377286830055}
@@ -4159,9 +4201,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Note
   - m_Version: 1
-    m_Start: 4
+    m_Start: 2.5
     m_ClipIn: 0
-    m_Asset: {fileID: -8660992647658284165}
+    m_Asset: {fileID: -7279184413536552307}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3532718377286830055}
@@ -4228,9 +4270,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Note
   - m_Version: 1
-    m_Start: 2
+    m_Start: 3.5
     m_ClipIn: 0
-    m_Asset: {fileID: -7831286027210593377}
+    m_Asset: {fileID: 3168541030859157129}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3532718377286830055}
@@ -4297,9 +4339,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Note
   - m_Version: 1
-    m_Start: 6
+    m_Start: 4.5
     m_ClipIn: 0
-    m_Asset: {fileID: -4695388711154118854}
+    m_Asset: {fileID: -7272836623382282392}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3532718377286830055}
@@ -4369,6 +4411,9 @@ MonoBehaviour:
     m_Objects: []
   _notePool:
     exposedName: 85a7d7d654cba9a438744c162de57db3
+    defaultValue: {fileID: 0}
+  _hitQueue:
+    exposedName: 54694481158ad3141838e7017f22cd64
     defaultValue: {fileID: 0}
 --- !u!114 &-3529275919187006966
 MonoBehaviour:
@@ -4609,20 +4654,6 @@ MonoBehaviour:
   m_Time: 85.38461538461537
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 2
---- !u!114 &-3118496565742330411
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
-  _noteAxis: 1
 --- !u!114 &-3069062495418914767
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4831,6 +4862,20 @@ MonoBehaviour:
   m_Time: 110.76923076923076
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 2
+--- !u!114 &-2614292607852176273
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 3
 --- !u!114 &-2609181119981733177
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5387,20 +5432,6 @@ MonoBehaviour:
   m_Time: 142.21153846153845
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
---- !u!114 &-1726365159587103306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
-  _noteAxis: 2
 --- !u!114 &-1685787147057208041
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5529,6 +5560,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Time: 8.25
+--- !u!114 &-1482073028835192120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 1
 --- !u!114 &-1480969874770920291
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6653,6 +6698,8 @@ MonoBehaviour:
   - {fileID: -7991078936504645405}
   - {fileID: -3532718377286830055}
   - {fileID: 8142641599667293854}
+  - {fileID: 5859270869767424491}
+  - {fileID: 4039571216117344451}
   - {fileID: -6154040293497653380}
   m_FixedDuration: 12
   m_EditorSettings:
@@ -7222,6 +7269,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Time: 5.25
+--- !u!114 &1147408377282571740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 1
 --- !u!114 &1149727612750763187
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7252,6 +7313,20 @@ MonoBehaviour:
   m_Time: 173.94230769230768
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
+--- !u!114 &1177339116019407900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 3
 --- !u!114 &1182010867400549663
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8430,6 +8505,20 @@ MonoBehaviour:
   m_Time: 109.90384615384615
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
+--- !u!114 &3168541030859157129
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 0
 --- !u!114 &3179507882041999421
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8666,6 +8755,20 @@ MonoBehaviour:
   m_Time: 176.53846153846152
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
+--- !u!114 &3510398582100137193
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 2
 --- !u!114 &3565191617284478614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9085,6 +9188,173 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Time: 2.75
+--- !u!114 &4039571216117344451
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e25b1f219a408b4cb8761e91d5acbb7, type: 3}
+  m_Name: Note 3
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 6
+    m_ClipIn: 0
+    m_Asset: {fileID: -2614292607852176273}
+    m_Duration: 2
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4039571216117344451}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: HoldNote
+  - m_Version: 1
+    m_Start: 8
+    m_ClipIn: 0
+    m_Asset: {fileID: 1177339116019407900}
+    m_Duration: 2
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4039571216117344451}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: HoldNote
+  m_Markers:
+    m_Objects: []
+  _notePool:
+    exposedName: 2d488ef3d740ff048a553d5ad945ed08
+    defaultValue: {fileID: 0}
+  _hitQueue:
+    exposedName: 57720ecdf7c70cb47b60303c926923f9
+    defaultValue: {fileID: 0}
 --- !u!114 &4062867315389774208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9155,20 +9425,6 @@ MonoBehaviour:
   m_Time: 75.28846153846153
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
---- !u!114 &4147519683247417540
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
-  _noteAxis: 0
 --- !u!114 &4156647096003019816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10240,6 +10496,173 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 146.34146341463415
   <parent>k__BackingField: {fileID: -7991078936504645405}
+--- !u!114 &5859270869767424491
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e25b1f219a408b4cb8761e91d5acbb7, type: 3}
+  m_Name: Note 2
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 5
+    m_ClipIn: 0
+    m_Asset: {fileID: 1147408377282571740}
+    m_Duration: 2
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5859270869767424491}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: HoldNote
+  - m_Version: 1
+    m_Start: 7
+    m_ClipIn: 0
+    m_Asset: {fileID: -1482073028835192120}
+    m_Duration: 2
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5859270869767424491}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: HoldNote
+  m_Markers:
+    m_Objects: []
+  _notePool:
+    exposedName: 2d488ef3d740ff048a553d5ad945ed08
+    defaultValue: {fileID: 0}
+  _hitQueue:
+    exposedName: 57720ecdf7c70cb47b60303c926923f9
+    defaultValue: {fileID: 0}
 --- !u!114 &5882748517755206988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10270,20 +10693,6 @@ MonoBehaviour:
   m_Time: 154.6153846153846
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 2
---- !u!114 &5944441063171637928
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
-  _noteAxis: 0
 --- !u!114 &5974928301658000769
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11907,10 +12316,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.5
+    m_Start: 2
     m_ClipIn: 0
-    m_Asset: {fileID: -1726365159587103306}
-    m_Duration: 2
+    m_Asset: {fileID: -6250753646291513536}
+    m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8142641599667293854}
     m_EaseInDuration: 0
@@ -11974,12 +12383,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: HoldNote
+    m_DisplayName: Note
   - m_Version: 1
-    m_Start: 4.5
+    m_Start: 3
     m_ClipIn: 0
-    m_Asset: {fileID: -3118496565742330411}
-    m_Duration: 2
+    m_Asset: {fileID: -6362689942318021438}
+    m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8142641599667293854}
     m_EaseInDuration: 0
@@ -12043,12 +12452,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: HoldNote
+    m_DisplayName: Note
   - m_Version: 1
-    m_Start: 2.5
+    m_Start: 4
     m_ClipIn: 0
-    m_Asset: {fileID: 4147519683247417540}
-    m_Duration: 2
+    m_Asset: {fileID: -7652397273549568756}
+    m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8142641599667293854}
     m_EaseInDuration: 0
@@ -12112,11 +12521,83 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: HoldNote
+    m_DisplayName: Note
+  - m_Version: 1
+    m_Start: 5
+    m_ClipIn: 0
+    m_Asset: {fileID: 3510398582100137193}
+    m_Duration: 1
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8142641599667293854}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Note
   m_Markers:
     m_Objects: []
   _notePool:
     exposedName: 2d488ef3d740ff048a553d5ad945ed08
+    defaultValue: {fileID: 0}
+  _hitQueue:
+    exposedName: 57720ecdf7c70cb47b60303c926923f9
     defaultValue: {fileID: 0}
 --- !u!114 &8155071581984174818
 MonoBehaviour:

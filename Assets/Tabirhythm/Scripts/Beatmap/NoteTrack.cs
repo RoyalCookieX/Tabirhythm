@@ -9,6 +9,7 @@ namespace Tabirhythm
     {
         [Header("Components")]
         [SerializeField] private ExposedReference<NotePool> _notePool;
+        [SerializeField] private ExposedReference<HitQueue> _hitQueue;
 
         [HideInInspector] private TempoTrack _tempoTrack;
 
@@ -22,6 +23,7 @@ namespace Tabirhythm
             var trackMixer = ScriptPlayable<NoteTrackMixer>.Create(graph, inputCount);
             NoteTrackMixer noteTrackMixer = trackMixer.GetBehaviour();
             noteTrackMixer.notePool = _notePool.Resolve(graph.GetResolver());
+            noteTrackMixer.hitQueue = _hitQueue.Resolve(graph.GetResolver());
             return trackMixer;
         }
 
@@ -36,6 +38,7 @@ namespace Tabirhythm
             notePlayable.beatsPerMinute = _tempoTrack.Tempo.beatsPerMinute;
             notePlayable.notePool = notePool;
             notePlayable.notePool.CreatePool(prefab);
+            notePlayable.hitQueue = _hitQueue.Resolve(graph.GetResolver());
             return playable;
         }
 
