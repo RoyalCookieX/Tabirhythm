@@ -3358,6 +3358,19 @@ MonoBehaviour:
   m_Time: 135.8653846153846
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
+--- !u!114 &-4655511355636235925
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
 --- !u!114 &-4608257503719098959
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7249,6 +7262,19 @@ MonoBehaviour:
   m_Time: 37.5
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 1
+--- !u!114 &1581842591815488571
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
+  m_Name: NoteClip
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
 --- !u!114 &1587293634844425922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7925,19 +7951,6 @@ MonoBehaviour:
   m_Time: 77.59615384615384
   <parent>k__BackingField: {fileID: -7991078936504645405}
   _markerType: 0
---- !u!114 &2722236926072458858
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
 --- !u!114 &2729285815188662937
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11697,10 +11710,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2
+    m_Start: 1
     m_ClipIn: 0
-    m_Asset: {fileID: 2722236926072458858}
-    m_Duration: 1
+    m_Asset: {fileID: 1581842591815488571}
+    m_Duration: 2
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8142641599667293854}
     m_EaseInDuration: 0
@@ -11764,12 +11777,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Note
+    m_DisplayName: HoldNote
   - m_Version: 1
-    m_Start: 6
+    m_Start: 5
     m_ClipIn: 0
-    m_Asset: {fileID: 8437096066938734322}
-    m_Duration: 1
+    m_Asset: {fileID: -4655511355636235925}
+    m_Duration: 2
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8142641599667293854}
     m_EaseInDuration: 0
@@ -11833,7 +11846,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Note
+    m_DisplayName: HoldNote
   m_Markers:
     m_Objects: []
   _notePool:
@@ -12057,19 +12070,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 56.195121951219505
   <parent>k__BackingField: {fileID: -7991078936504645405}
---- !u!114 &8437096066938734322
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4981d4081ce03fa4faf8ea05dfc9c809, type: 3}
-  m_Name: NoteClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
 --- !u!114 &8491871060893904399
 MonoBehaviour:
   m_ObjectHideFlags: 1

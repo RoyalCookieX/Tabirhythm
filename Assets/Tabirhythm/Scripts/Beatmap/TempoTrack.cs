@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Timeline;
 
@@ -13,6 +14,7 @@ namespace Tabirhythm
         public int beatsPerMeasure;
     }
 
+    [Serializable]
     [TrackBindingType(typeof(Metronome))]
     public class TempoTrack : TrackAsset
     {

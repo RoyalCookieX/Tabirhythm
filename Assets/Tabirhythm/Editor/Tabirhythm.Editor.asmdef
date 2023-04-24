@@ -1,0 +1,20 @@
+{
+    "name": "Tabirhythm.Editor",
+    "rootNamespace": "Tabirhythm.Editor",
+    "references": [
+        "GUID:12fbd3694c4fa2b409bc675cdf7c5567",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:02f771204943f4a40949438e873e3eff"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
