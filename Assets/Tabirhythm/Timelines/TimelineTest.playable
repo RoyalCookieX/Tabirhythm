@@ -3371,6 +3371,7 @@ MonoBehaviour:
   m_Name: NoteClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 2
 --- !u!114 &-4608257503719098959
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6820,6 +6821,7 @@ MonoBehaviour:
   m_Name: NoteClip
   m_EditorClassIdentifier: 
   _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 0
 --- !u!114 &439704615521419097
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7275,6 +7277,7 @@ MonoBehaviour:
   m_Name: NoteClip
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7445361148884221059, guid: dee50002135e0c649a4f3c609b490259, type: 3}
+  _noteAxis: 1
 --- !u!114 &1587293634844425922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12600,6 +12603,7 @@ MonoBehaviour:
   m_Name: NoteClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   _prefab: {fileID: 136160505499881154, guid: f27a8984fe8ff744c9680c39419d373a, type: 3}
+  _noteAxis: 3
 --- !u!114 &9126497208387340820
 MonoBehaviour:
   m_ObjectHideFlags: 1

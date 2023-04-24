@@ -14,22 +14,28 @@ namespace Tabirhythm
     public class NoteClip : PlayableAsset, ITimelineClipAsset
     {
         public Note Prefab => _prefab;
-        public ClipCaps clipCaps => ClipCaps.None;
         public WindowInfo Window => _window;
-
+        public NoteAxis NoteAxis => _noteAxis;
+        public int StepDistance => _stepDistance;
+        public ClipCaps clipCaps => ClipCaps.None;
+        
         [Header("Properties")]
         [SerializeField] private Note _prefab;
+        [SerializeField] private NoteAxis _noteAxis;
 
         [HideInInspector] private WindowInfo _window;
+        [HideInInspector] private int _stepDistance;
 
-        public void CalculateWindow(int beatCount, double beatDuration)
+        public void OnInitialize(TempoInfo tempo, double duration)
         {
             if (!_prefab)
                 return;
 
+            int beatCount = Mathf.RoundToInt((float)(duration / tempo.BeatDuration));
             int actionCount = _prefab.ActionsPerBeat * beatCount;
             double holdTime = 0.0;
             double stepTime = 0.0;
+            int stepDistance = 0;
             bool isHolding = false;
             WindowInfo window = new WindowInfo();
 
@@ -37,7 +43,7 @@ namespace Tabirhythm
             {
                 int actionIndex = i % _prefab.Actions.Length;
                 NoteAction action = _prefab.Actions[actionIndex];
-                double actionTime = i * beatDuration / _prefab.ActionsPerBeat;
+                double actionTime = i * tempo.BeatDuration / _prefab.ActionsPerBeat;
                 switch (action)
                 {
                     case NoteAction.Rest:
@@ -51,6 +57,7 @@ namespace Tabirhythm
                     case NoteAction.Step:
                     {
                         stepTime = actionTime;
+                        stepDistance++;
                         if (isHolding)
                         {
                             window.time = holdTime;
@@ -77,12 +84,16 @@ namespace Tabirhythm
                 }
             }
             _window = window;
-
+            _stepDistance = stepDistance;
         }
 
         public override Playable CreatePlayable(PlayableGraph graph, GameObject gameObject)
         {
             var playable = ScriptPlayable<NotePlayable>.Create(graph);
+            NotePlayable notePlayable = playable.GetBehaviour();
+            notePlayable.prefabName = _prefab.name;
+            notePlayable.noteAxis = _noteAxis;
+            notePlayable.stepDistance = _stepDistance;
             return playable;
         }
     }
