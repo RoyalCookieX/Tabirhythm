@@ -1,0 +1,19 @@
+{
+    "name": "Tabirhythm.Core",
+    "rootNamespace": "Tabirhythm",
+    "references": [
+        "Cinemachine",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.Timeline"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
